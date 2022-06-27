@@ -1,5 +1,10 @@
 package ru.rrenat358.singleton;
 
+
+//video = 01:14:35
+
+
+
 public class SingletonApp {
 
     public static void main(String[] args) {
