@@ -3,7 +3,7 @@ package ru.rrenat358.singleton;
 public class Singleton {
     private static Singleton instance = null;
 
-    private static Singleton getInstance() {
+    public static Singleton getInstance() {
         if (instance == null) {
             instance = new Singleton();
         }
