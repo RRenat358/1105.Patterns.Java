@@ -4,7 +4,7 @@ public class WaterSpring {
 
     private static WaterSpring instance = null;
 
-    private static String kindOfWater = "Литров чистой воды";
+    private static String kindOfWater = " = литров чистой воды";
 
     public static WaterSpring getInstance() {
         if (instance == null) {
