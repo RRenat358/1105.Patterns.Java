@@ -9,9 +9,12 @@ public class SingletonApp {
         Singleton singleton = Singleton.getInstance();
         System.out.println(singleton);
 
+        Singleton singleton2 = Singleton.getInstance();
+        System.out.println(singleton2);
 
 
-        System.out.println("==============================");
+
+        System.out.println("\n==============================");
         System.out.println("Singleton App is Done!");
     }
 }
