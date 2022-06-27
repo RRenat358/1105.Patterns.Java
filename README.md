@@ -1,2 +1,4 @@
 # 1105.Java.Pattern
-Java. Pattern
+
+Design patterns java 
+
