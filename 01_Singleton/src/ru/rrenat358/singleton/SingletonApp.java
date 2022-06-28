@@ -8,7 +8,8 @@ package ru.rrenat358.singleton;
 public class SingletonApp {
 
     public static void main(String[] args) {
-        System.out.println("==============================\n");
+        System.out.println("\n==============================");
+        System.out.println("=== Singleton ================\n");
 
         Singleton singleton1 = Singleton.getInstance();
         System.out.println("1 -- " + singleton1);
@@ -17,7 +18,7 @@ public class SingletonApp {
         System.out.println("2 -- " + singleton2);
 
         System.out.println("\n------------------------------");
-        System.out.println("--- WaterSpring --------------");
+        System.out.println("--- WaterSpring --------------\n");
         float someWater;
         WaterSpring waterSpring = WaterSpring.getInstance();
 
@@ -26,8 +27,8 @@ public class SingletonApp {
         someWater = 3.2f;
         System.out.println(waterSpring.getWater(someWater));
 
-        System.out.println("------------------------------");
-        System.out.println("--- Teapot -------------------");
+        System.out.println("\n------------------------------");
+        System.out.println("--- Teapot -------------------\n");
 
         float waterForTeapot = 1.8f;
         Teapot teapot = new Teapot(waterForTeapot);
@@ -36,15 +37,22 @@ public class SingletonApp {
 
 
         System.out.println("\n==============================");
-        System.out.println("=== Multiton ===================");
+        System.out.println("=== Multiton =================\n");
+
         Multiton multiton = Multiton.getInstance("1");
         System.out.println("multiton 1 -- " + multiton);
 
         Multiton multiton2 = Multiton.getInstance("2");
         System.out.println("multiton 2 -- " + multiton2);
 
+        System.out.println("\n==============================");
+        System.out.println("=== LimitedMultiton ==========\n");
 
+        LimitedMultiton limitedMultiton = LimitedMultiton.getInstance(LimitedMultiton.CountInstance.ONE);
+        System.out.println("limitedMultiton ONE -- " + limitedMultiton);
 
+        LimitedMultiton limitedMultiton2 = LimitedMultiton.getInstance(LimitedMultiton.CountInstance.TWO);
+        System.out.println("limitedMultiton TWO -- " + limitedMultiton2);
 
 
 
