@@ -1,4 +1,4 @@
-package ru.rrenat358.singleton;
+package sample;
 
 public class Teapot {
     private float volume;
@@ -14,7 +14,7 @@ public class Teapot {
     private String addWater(float volume) {
         WaterSpring instance = WaterSpring.getInstance();
 
-        System.out.println("Teapot -- " + instance);
+        System.out.println("sample.Teapot -- " + instance);
         return instance.getWater(volume);
     }
 

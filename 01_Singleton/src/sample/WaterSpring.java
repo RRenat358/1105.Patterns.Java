@@ -1,4 +1,4 @@
-package ru.rrenat358.singleton;
+package sample;
 
 public class WaterSpring {
 

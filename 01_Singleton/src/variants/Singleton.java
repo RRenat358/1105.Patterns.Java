@@ -1,4 +1,4 @@
-package ru.rrenat358.singleton;
+package variants;
 
 public class Singleton {
     private static Singleton instance = null;

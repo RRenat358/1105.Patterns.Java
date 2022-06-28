@@ -1,4 +1,4 @@
-package ru.rrenat358.singleton;
+package variants;
 
 import java.util.HashMap;
 import java.util.Map;
