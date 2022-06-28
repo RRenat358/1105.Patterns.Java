@@ -13,6 +13,8 @@ public class Teapot {
 
     private String addWater(float volume) {
         WaterSpring instance = WaterSpring.getInstance();
+
+        System.out.println("Teapot -- " + instance);
         return instance.getWater(volume);
     }
 
