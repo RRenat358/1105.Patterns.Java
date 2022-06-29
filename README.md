@@ -2,3 +2,5 @@
 
 Design patterns java 
 
+Паттерны, группа порождающие. Singleton
+Паттерны, группа порождающие. Factory method
