@@ -11,6 +11,9 @@ public class FactoryApp {
         storeGrocery001.saleGood();
 
 
+        StoreFactory storeFactoryWear = new StoreFactoryWear();
+        Store storeWear001 = storeFactoryWear.createStore();
+        storeWear001.saleGood();
 
 
 
@@ -19,6 +22,7 @@ public class FactoryApp {
 
         StoreFactory storeFactoryGrocery2 = new GroceryStoreFactory();
         Store storeGrocery002 = storeFactoryGrocery2.createStore();
+        storeGrocery002.saleGood();
 
 
         System.out.println("\n==============================");
