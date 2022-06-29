@@ -3,12 +3,12 @@ public class FactoryApp {
         System.out.println("\n==============================");
         System.out.println("=== variants.Singleton ================\n");
 
-        Store store = new GroceryStore();
+        Store store = new StoreFood();
         store.saleGood();
 
-        StoreFactory groceryStoreFactory = new GroceryStoreFactory();
-        Store storeGrocery001 = groceryStoreFactory.createStore();
-        storeGrocery001.saleGood();
+        StoreFactory storeFactoryFood = new StoreFactoryFood();
+        Store storeFood001 = storeFactoryFood.createStore();
+        storeFood001.saleGood();
 
 
         StoreFactory storeFactoryWear = new StoreFactoryWear();
@@ -20,9 +20,9 @@ public class FactoryApp {
 
 
 
-        StoreFactory storeFactoryGrocery2 = new GroceryStoreFactory();
-        Store storeGrocery002 = storeFactoryGrocery2.createStore();
-        storeGrocery002.saleGood();
+        StoreFactory storeFactoryFood002 = new StoreFactoryFood();
+        Store storeFood002 = storeFactoryFood002.createStore();
+        storeFood002.saleGood();
 
 
         System.out.println("\n==============================");

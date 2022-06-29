@@ -1,4 +1,4 @@
-public class GroceryStore implements Store {
+public class StoreFood implements Store {
 
     @Override
     public void saleGood() {
