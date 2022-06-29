@@ -1,3 +1,7 @@
+package StoreWear;
+
+import StoreFactory.Store;
+
 public class StoreWear implements Store {
 
     @Override

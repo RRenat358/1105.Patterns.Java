@@ -1,3 +1,7 @@
+package StoreFood;
+
+import StoreFactory.Store;
+
 public class StoreFood implements Store {
 
     @Override

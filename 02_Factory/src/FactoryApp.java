@@ -1,3 +1,7 @@
+import StoreFactory.*;
+import StoreFood.*;
+import StoreWear.*;
+
 public class FactoryApp {
     public static void main(String[] args) {
         System.out.println("\n==============================");

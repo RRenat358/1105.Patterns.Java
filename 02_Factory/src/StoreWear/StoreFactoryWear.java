@@ -1,3 +1,7 @@
+package StoreWear;
+
+import StoreFactory.*;
+
 public class StoreFactoryWear implements StoreFactory {
 
 
