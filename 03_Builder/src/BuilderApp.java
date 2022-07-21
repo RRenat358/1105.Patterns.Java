@@ -18,8 +18,6 @@ public class BuilderApp {
         System.out.println(director.buildIndustrialUnit());
 
 
-
-
         System.out.println("\n=== END ======================");
         System.out.println("==============================\n");
 
