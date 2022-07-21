@@ -1,5 +1,7 @@
-public class OperationStatus {
+public enum OperationStatus {
 
+    OPERATING,
+    STOP;
 
 
 }
