@@ -1,5 +1,6 @@
 /**
  * Строитель
+ *
  */
 
 
@@ -17,7 +18,7 @@ public abstract class IndustrialBuilder {
     abstract void buildPressure();
     abstract void buildVoltage();
     abstract void buildSupplierName();
-    abstract void buildOperation();
+    abstract void buildOperationStatus();
 
     IndustrialUnit getIndustrialUnit() {
         return industrialUnit;
