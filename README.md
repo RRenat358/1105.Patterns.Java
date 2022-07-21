@@ -5,13 +5,14 @@ Design patterns java
 ==============================  
 Порождающие. Singleton  
 Порождающие. Factory method  
+Порождающие. Builder
 
 Done  
-2pcs  
+03 pcs  
 – – – – – – – – – – – – – – – –  
 in work  
 
-Порождающие. Builder  
+
 
 
 \
