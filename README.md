@@ -1,6 +1,42 @@
-# 1105.Java.Pattern
+# Pattern. Java  
 
-Design patterns java 
+Design patterns java  
+\
+==============================  
+Порождающие. Singleton  
+Порождающие. Factory method  
+Порождающие. Builder
 
-Паттерны, группа порождающие. Singleton
-Паттерны, группа порождающие. Factory method
+Done  
+03 pcs  
+– – – – – – – – – – – – – – – –  
+in work  
+
+
+
+
+\
+– – – – – – – – – – – – – – – –  
+Порождающие. Object pool  
+
+Структурные. Adapter, Wrapper  
+Структурные. Decorator  
+Структурные. Facade.  
+Структурные. Visitor  
+
+Поведенческие. Observer  
+Поведенческие. Chain of responsibility  
+Поведенческие. Mediator  
+Поведенческие. Strategy  
+Поведенческие. State  
+Поведенческие. Command  
+Поведенческие. Iterator  
+
+\
+12pcs  
+==============================  
+\
+\
+
+
+
