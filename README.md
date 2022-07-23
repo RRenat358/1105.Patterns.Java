@@ -25,7 +25,7 @@ Object pool            //python
 Adapter, Wrapper       //python  
 Decorator              //python  
 Facade.                //python  
-
+Visitor                //C#
 
 \
 – – – – – – – – – – – – – – – –  
@@ -39,8 +39,6 @@ Done
 03 patterns   
 ==============================  
 **in work**  
-
-Структурные. Visitor  
 
 Поведенческие. Observer  
 Поведенческие. Chain of responsibility  
