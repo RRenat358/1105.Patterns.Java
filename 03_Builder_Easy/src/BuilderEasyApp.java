@@ -11,15 +11,18 @@ public class BuilderEasyApp {
         System.out.println("\n==============================");
         System.out.println("=== Builder ==================\n");
 
-        Director director = new Director();
-        director.setBuilder(new LightIndustrialUnitBuilder());
 
-        IndustrialUnit industrialUnit = director.buildIndustrialUnit();
+        Report report = new Report
+                .Builder("Отчёт за неделю")
+                .setTitle("Закупка")
+                .setContent("Реализовано")
+                .setTable("Таблица цен")
+                .setPageNumber(2)
+                .build();
 
-        System.out.println(industrialUnit);
+        System.out.println(report);
 
-        director.setBuilder(new HeavyIndustrialUnitBuilder());
-        System.out.println(director.buildIndustrialUnit());
+
 
 
         System.out.println("\n=== END ======================");
