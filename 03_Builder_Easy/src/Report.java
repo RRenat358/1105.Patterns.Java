@@ -33,12 +33,12 @@ public class Report {
 
     @Override
     public String toString() {
-        return "Report{" +
-                "Header='" + Header + '\'' +
-                ", Title='" + Title + '\'' +
-                ", Content='" + Content + '\'' +
-                ", Table='" + Table + '\'' +
-                ", PageNumber='" + PageNumber + '\'' +
+        return "Report {\n" +
+                "  Header     = " + Header + '\n' +
+                "  Title      = " + Title + '\n' +
+                "  Content    = " + Content + '\n' +
+                "  Table      = " + Table + '\n' +
+                "  PageNumber = " + PageNumber + '\n' +
                 '}';
     }
 

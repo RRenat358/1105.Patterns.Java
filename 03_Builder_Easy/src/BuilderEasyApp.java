@@ -23,6 +23,12 @@ public class BuilderEasyApp {
         System.out.println(report);
 
 
+        System.out.println("\n- - - - - - - - - - - - - - -");
+        System.out.println(report.getHeader());
+        System.out.println(report.getTable());
+        System.out.println(report.getPageNumber());
+
+
 
 
         System.out.println("\n=== END ======================");
