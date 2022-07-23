@@ -4,7 +4,7 @@ public class Report {
     private String Title;
     private String Content;
     private String Table;
-    private String PageNumber;
+    private int PageNumber;
 
     public String getHeader() {
         return Header;
@@ -22,7 +22,7 @@ public class Report {
         return Table;
     }
 
-    public String getPageNumber() {
+    public int getPageNumber() {
         return PageNumber;
     }
 
