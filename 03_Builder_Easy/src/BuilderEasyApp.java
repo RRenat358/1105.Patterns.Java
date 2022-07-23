@@ -1,3 +1,9 @@
+/**
+ * Упрощённый строитель
+ *
+ */
+
+
 public class BuilderEasyApp {
 
     public static void main(String[] args) {
