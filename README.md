@@ -23,8 +23,8 @@ Object pool            //python
 **Структурные**  
 – – – – – – – – – – – – – – – –  
 Adapter, Wrapper       //python  
-
-
+Decorator              //python  
+Facade.                //python  
 
 
 \
@@ -39,9 +39,6 @@ Done
 03 patterns   
 ==============================  
 **in work**  
-
-Структурные. Decorator  
-Структурные. Facade.  
 
 Структурные. Visitor  
 
