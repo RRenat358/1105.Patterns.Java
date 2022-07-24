@@ -16,7 +16,7 @@ Factory method
 Builder  
 Builder Easy  
 
-Object pool            //python  
+Object pool             //python  
 
 
 
@@ -37,8 +37,8 @@ Visitor                 //C#
 **Поведенческие**  
 – – – – – – – – – – – – – – – –  
 ```
-Observer               //C#
-
+Observer                //C#
+Chain of responsibility //C#  
 
 
 ```
@@ -47,7 +47,7 @@ Done
 ==============================  
 **in work**  
 
-Поведенческие. Chain of responsibility  
+Поведенческие.  
 Поведенческие. Mediator  
 
 Поведенческие. Strategy  
