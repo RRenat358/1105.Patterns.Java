@@ -1,13 +1,14 @@
-## Pattern  
-... Java, C#, Python, ...
+## Patterns  
 
-Design patterns 
 
+Design patterns  
+. . . Java, C#, Python
 \
 \
 ==============================  
 **Порождающие**  
 – – – – – – – – – – – – – – – –  
+````
 Singleton  
 
 Factory method  
@@ -18,29 +19,34 @@ Builder Easy
 Object pool            //python  
 
 
-\
+
+````
 – – – – – – – – – – – – – – – –  
 **Структурные**  
 – – – – – – – – – – – – – – – –  
-Adapter, Wrapper       //python  
-Decorator              //python  
-Facade.                //python  
-Visitor                //C#
+```
+Adapter, Wrapper        //python  
+Decorator               //python  
+Facade.                 //python  
+Visitor                 //C#  
 
-\
+
+
+```
 – – – – – – – – – – – – – – – –  
 **Поведенческие**  
 – – – – – – – – – – – – – – – –  
+```
+Observer               //C#
 
 
 
-\
+```
 Done  
 03 patterns   
 ==============================  
 **in work**  
 
-Поведенческие. Observer  
 Поведенческие. Chain of responsibility  
 Поведенческие. Mediator  
 
