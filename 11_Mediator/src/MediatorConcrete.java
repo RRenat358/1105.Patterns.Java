@@ -21,7 +21,7 @@ public class MediatorConcrete implements Mediator {
             if (!taxiToDrive.getBusy() && !trip.isAssignedTrip()) {
                 trip.setAssignedTrip(true);
                 taxiToDrive.setBooked();
-                System.out.println("\n Trip to " + trip.getAddress() + "asigned to " + taxiToDrive.getName());
+                System.out.println("\n Trip to " + trip.getAddress() + ". asigned to " + taxiToDrive.getName());
                 break;
             }
         }
