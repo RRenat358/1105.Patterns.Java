@@ -40,15 +40,15 @@ Visitor                 //C#
 Observer                //C#
 Chain of responsibility //C#  
 
+Mediator  
+
+
 
 ```
 Done  
 03 patterns   
 ==============================  
 **in work**  
-
-Поведенческие.  
-Поведенческие. Mediator  
 
 Поведенческие. Strategy  
 Поведенческие. State  
