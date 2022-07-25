@@ -1,5 +1,5 @@
 public interface Mediator {
 
-    void requestAl(Trip trip);
+    void requestAll(Trip trip);
 
 }

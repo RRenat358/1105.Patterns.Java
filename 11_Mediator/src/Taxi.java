@@ -12,7 +12,7 @@ public interface Taxi {
 
     boolean getBusy();
 
-    System getStatus();
+    String getStatus();
 
     void assingDriver(Trip trip);
 

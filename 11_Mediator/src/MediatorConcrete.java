@@ -15,7 +15,7 @@ public class MediatorConcrete implements Mediator {
 
 
     @Override
-    public void requestAl(Trip trip) {
+    public void requestAll(Trip trip) {
 
         for (Taxi taxiToDrive : taxiList) {
             if (!taxiToDrive.getBusy() && !trip.isAssignedTrip()) {
