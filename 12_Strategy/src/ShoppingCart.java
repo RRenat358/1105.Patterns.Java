@@ -7,6 +7,17 @@ import java.util.Map;
 
 public class ShoppingCart {
 
+    public static void main(String[] args) {
+        Product product = new Product(1L, "Product", new BigDecimal(100));
+
+        ShoppingCart cart = new ShoppingCart();
+        cart.setDiscountable(new FixedDiscount(new BigDecimal("0.1")));
+        cart.addToCart(product);
+        System.out.println("Total = " + cart.calcTotal());
+    }
+
+
+
     private final Map<Long, Product> products = new HashMap<>();
 
     private Discountable discountable;
@@ -31,15 +42,6 @@ public class ShoppingCart {
             value = discountable.applyDiscount(value);
         }
         return value;
-    }
-
-    public static void main(String[] args) {
-        Product product = new Product(1L, "Product", new BigDecimal(100));
-
-        ShoppingCart cart = new ShoppingCart();
-        cart.setDiscountable(new FixedDiscount(new BigDecimal("0.1")));
-        cart.addToCart(product);
-        System.out.println("Total = " + cart.calcTotal());
     }
 
 
