@@ -41,6 +41,9 @@ Observer                //C#
 Chain of responsibility //C#  
 
 Mediator  
+Strategy
+State
+
 
 
 
@@ -49,9 +52,7 @@ Done
 03 patterns   
 ==============================  
 **in work**  
-
-Поведенческие. Strategy  
-Поведенческие. State  
+ 
 Поведенческие. Command  
 
 Поведенческие. Iterator  
