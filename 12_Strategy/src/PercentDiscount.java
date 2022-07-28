@@ -1,6 +1,6 @@
 
-
 import java.math.BigDecimal;
+
 
 public class PercentDiscount implements Discountable {
 
@@ -14,4 +14,6 @@ public class PercentDiscount implements Discountable {
     public BigDecimal applyDiscount(BigDecimal value) {
         return value.multiply(BigDecimal.ONE.subtract(discount));
     }
+
+
 }

@@ -1,7 +1,7 @@
 
-
 import java.math.BigDecimal;
 import java.util.Objects;
+
 
 public class Product {
 
@@ -65,4 +65,6 @@ public class Product {
                 ", price=" + price +
                 '}';
     }
+
+
 }

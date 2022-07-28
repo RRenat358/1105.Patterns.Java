@@ -1,6 +1,6 @@
 
-
 import java.math.BigDecimal;
+
 
 public class FixedDiscount implements Discountable {
 
@@ -14,4 +14,6 @@ public class FixedDiscount implements Discountable {
     public BigDecimal applyDiscount(BigDecimal value) {
         return value.subtract(discount);
     }
+
+
 }
