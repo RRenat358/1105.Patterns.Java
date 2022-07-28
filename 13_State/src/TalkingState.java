@@ -1,3 +1,5 @@
+
+
 public class TalkingState implements State {
 
     public static final TalkingState TALKING_STATE = new TalkingState();
@@ -15,4 +17,6 @@ public class TalkingState implements State {
     public String toString() {
         return "TALKING_STATE";
     }
+
+
 }

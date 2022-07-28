@@ -1,3 +1,5 @@
+
+
 public class WaitingState implements State {
 
     public static final WaitingState WAITING_STATE = new WaitingState();
@@ -14,4 +16,6 @@ public class WaitingState implements State {
     public String toString() {
         return "WAITING_STATE";
     }
+
+
 }
