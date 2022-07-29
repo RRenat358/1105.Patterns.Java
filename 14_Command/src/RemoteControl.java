@@ -7,10 +7,10 @@ import java.util.List;
 
 public class RemoteControl {
 
-    private List<Command> buttons;
+    private List<Command> buttons = new ArrayList<>();
 
-    public RemoteControl(List<Command> buttons) {
-        this.buttons = new ArrayList<>();
+    public RemoteControl() {
+        this.buttons = buttons;
     }
 
     public void addCommand(int idButton, Command command) {
