@@ -1,6 +1,5 @@
 /**
  * Музыкальный центр
- *
  */
 
 
@@ -17,7 +16,6 @@ public class MusicBox {
     public void makeLoud() {
         System.out.println("Sound is Loud");
     }
-
 
 
 }

@@ -6,7 +6,6 @@ public class LightTurnOff implements Command {
 
     private Light light;
 
-
     public LightTurnOff(Light light) {
         this.light = light;
     }
@@ -15,4 +14,6 @@ public class LightTurnOff implements Command {
     public void execute() {
         light.turnOff();
     }
+
+
 }

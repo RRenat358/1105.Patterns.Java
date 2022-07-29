@@ -13,7 +13,6 @@ public class CommandSequence implements Command {
         this.commands = commands;
     }
 
-
     @Override
     public void execute() {
         for (Command command : commands) {
