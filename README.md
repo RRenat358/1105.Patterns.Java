@@ -43,7 +43,7 @@ Chain of responsibility //C#
 Mediator  
 Strategy
 State
-
+Command  
 
 
 
@@ -51,9 +51,7 @@ State
 Done  
 03 patterns   
 ==============================  
-**in work**  
- 
-Поведенческие. Command  
+**in work**
 
 Поведенческие. Iterator  
 
