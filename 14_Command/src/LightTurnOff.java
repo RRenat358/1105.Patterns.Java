@@ -2,7 +2,7 @@
  * Выключить свет
  */
 
-public class LightTurnOff implements Command{
+public class LightTurnOff implements Command {
 
     private Light light;
 
