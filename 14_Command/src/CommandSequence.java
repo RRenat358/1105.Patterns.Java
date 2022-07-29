@@ -5,7 +5,7 @@ import java.util.List;
  * Последовательность команд
  */
 
-public class CommandSequence implements Command{
+public class CommandSequence implements Command {
 
     private List<Command> commands = new ArrayList<>();
 
@@ -20,7 +20,6 @@ public class CommandSequence implements Command{
             command.execute();
         }
     }
-
 
 
 }
