@@ -1,5 +1,5 @@
 /**
- * Выключить свет
+ * Сделать громче
  */
 
 public class MusicBoxMakeLoud implements Command {
