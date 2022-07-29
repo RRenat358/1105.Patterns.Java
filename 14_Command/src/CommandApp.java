@@ -16,9 +16,16 @@ public class CommandApp {
         MusicBoxTurnOff musicBoxTurnOff = new MusicBoxTurnOff(musicBox);
         MusicBoxMakeLoud musicBoxMakeLoud = new MusicBoxMakeLoud(musicBox);
 
+        remoteControl.addCommand(0, musicBoxTurnOn);
+        remoteControl.addCommand(1, musicBoxMakeLoud);
+        remoteControl.addCommand(2, musicBoxTurnOff);
+
         Light light = new Light();
         LightTurnOn lightTurnOn = new LightTurnOn(light);
         LightTurnOff lightTurnOff = new LightTurnOff(light);
+
+        remoteControl.addCommand(3, lightTurnOn);
+        remoteControl.addCommand(4, lightTurnOff);
 
         List commands = new ArrayList<>();
         commands.add(musicBoxTurnOn);
@@ -27,7 +34,6 @@ public class CommandApp {
 
         CommandSequence commandSequence = new CommandSequence(commands);
         remoteControl.addCommand(5, commandSequence);
-
 
 
         // Использование объектов
@@ -41,11 +47,8 @@ public class CommandApp {
         remoteControl.pressButton(3);
 
 
-
         System.out.println("\n=== END ======================");
         System.out.println("==============================\n");
-
-
 
 
     }
