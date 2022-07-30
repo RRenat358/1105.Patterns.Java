@@ -16,7 +16,7 @@ Factory method
 Builder  
 Builder Easy  
 
-Object pool             //python  
+Object pool                    //python  
 
 
 
@@ -25,10 +25,10 @@ Object pool             //python
 **Структурные**  
 – – – – – – – – – – – – – – – –  
 ```
-Adapter, Wrapper        //python  
-Decorator               //python  
-Facade.                 //python  
-Visitor                 //C#  
+Adapter, Wrapper               //python  
+Decorator                      //python  
+Facade.                        //python  
+Visitor                        //C#  
 
 
 
@@ -37,8 +37,8 @@ Visitor                 //C#
 **Поведенческие**  
 – – – – – – – – – – – – – – – –  
 ```
-Observer                //C#
-Chain of responsibility //C#  
+Observer                       //C#
+Chain of responsibility        //C#  
 
 Mediator  
 Strategy
@@ -48,15 +48,14 @@ Iterator, Cursor
 
 
 ```
-Done  
-03 patterns  
 -==============================  
 **in work**
 
 
 
 \
-0 patterns   
+\
+\
 -==============================  
 
 
