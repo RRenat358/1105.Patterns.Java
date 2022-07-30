@@ -3,7 +3,7 @@
  */
 
 
-public class MarketStore implements Collection{
+public class MarketStore implements Collection {
 
     private String name;
     private String[] goods;

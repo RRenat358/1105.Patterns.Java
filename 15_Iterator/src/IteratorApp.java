@@ -67,14 +67,21 @@ public class IteratorApp {
             System.out.println("Id of [" + searchNameItem + "] ==" + " is absent");
         }
 
+        System.out.println("\n\n=== 6 ======================================================");
+
+        if (itemPosition > 0) {
+            myIterator.removItem(itemPosition - 1);
+            System.out.println("searchNameItem [" + searchNameItem + "] ==" + " removed");
+        }
 
 
+        System.out.println("\n\n=== 7 ======================================================");
 
-
-
-
-
-
+        myIterator.setIteratorPosition(0);
+        itemPosition = 1;
+        while (myIterator.hasNext()) {
+            System.out.println(itemPosition++ + ". " + myIterator.next().toString());
+        }
 
 
         System.out.println("\n\n=== END ======================");
