@@ -53,7 +53,7 @@ Done
 ==============================  
 **in work**
 
-Поведенческие. Iterator  
+Поведенческие. Iterator, Cursor  
 
 \
 11 patterns   

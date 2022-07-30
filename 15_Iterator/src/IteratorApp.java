@@ -1,5 +1,5 @@
 /**
- * Iterator
+ * Iterator, Cursor
  */
 
 
