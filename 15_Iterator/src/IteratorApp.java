@@ -11,12 +11,14 @@ public class IteratorApp {
 
         String[] goods = {
                 "Apple", "Orange", "Banana",
-                "Book",
-                "Disk", "Monitor", "Refrigerator", "TV",
-                "Fish", "Blanca",
                 "Water", "Juice",
+                "Fish", "Blanca",
+                "Disk", "Monitor", "Refrigerator", "TV",
+                "Book",
                 "Soap"
         };
+
+
 
 
 
