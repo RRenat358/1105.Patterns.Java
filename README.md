@@ -44,7 +44,7 @@ Mediator
 Strategy
 State
 Command  
-
+Iterator, Cursor  
 
 
 ```
@@ -53,10 +53,10 @@ Done
 ==============================  
 **in work**
 
-Поведенческие. Iterator, Cursor  
+
 
 \
-11 patterns   
+0 patterns   
 ==============================  
 
 
